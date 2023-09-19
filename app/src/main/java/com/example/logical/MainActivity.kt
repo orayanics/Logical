@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 subtractTotal = addNumbers
                 addNumbers -= num1;
                 if(stringNumbers.isNotEmpty()){
-                    if(stringLetters.isNotEmpty() || !stringLetters.isNullOrEmpty()){
+                    if(stringNumbers.isNotEmpty() || !stringNumbers.isNullOrEmpty()){
                         stringNumbers = ""
                     }
                     resultNumbers = addNumbers
@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
                 subtractTotal = addNumbers
                 addNumbers -= num2;
                 if(stringNumbers.isNotEmpty()){
-                    if(stringLetters.isNotEmpty() || !stringLetters.isNullOrEmpty()){
+                    if(stringNumbers.isNotEmpty() || !stringNumbers.isNullOrEmpty()){
                         stringNumbers = ""
                     }
                     resultNumbers = addNumbers
@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
                 subtractTotal = addNumbers
                 addNumbers -= num3;
                 if(stringNumbers.isNotEmpty()){
-                    if(stringLetters.isNotEmpty() || !stringLetters.isNullOrEmpty()){
+                    if(stringNumbers.isNotEmpty() || !stringNumbers.isNullOrEmpty()){
                         stringNumbers = ""
                     }
                     resultNumbers = addNumbers
